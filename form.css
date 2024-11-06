@@ -1,0 +1,92 @@
+
+body{
+    background: rgb(32, 32, 32);
+}
+.container{
+    padding: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+    color: white;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+form label{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+form input{
+    padding:8px;
+    border-radius: 10px;
+    border: none;
+}
+form button{
+    padding: 8px;
+    background: rgb(75, 100, 228);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+form select{
+    padding: 8px;
+}
+
+form button:hover {
+    background: rgb(60, 80, 200);
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+
+    form input,
+    form select {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    form button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    form input,
+    form select {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

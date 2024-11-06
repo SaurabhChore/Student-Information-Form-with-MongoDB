@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.8.0",
+    "path": "^0.12.7"
+  }
+}
